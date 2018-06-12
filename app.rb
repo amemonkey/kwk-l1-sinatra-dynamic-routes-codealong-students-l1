@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @user_name = params[:name]
     "goodbye #{@user_name}."
   end
-
+7
   get "/multiply/:number_one/:number_two" do
     x = (params[:number_one].to_i)*(params[:number_two].to_i)
     "#{x}"
